@@ -27,7 +27,7 @@ export const GameProvider = ({ children }) => {
         const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
         const serverUrl = isDevelopment 
             ? 'http://localhost:3001'
-            : 'https://your-server-url.com'; // Replace with your actual server URL
+            : 'https://bombafinal.onrender.com'; // Replace with your actual server URL
 
         console.log('Connecting to server:', serverUrl);
         
